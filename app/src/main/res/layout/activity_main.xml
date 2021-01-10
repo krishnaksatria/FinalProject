@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asd"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/DrinksBtn"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="200dp"
+        android:text="Drinks"
+        android:background="@drawable/drinks"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/Btn2"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Btn2"
+        android:layout_width="103dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:text="Snacks"
+        android:background="@drawable/snacks"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="98dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="64dp"
+        android:text="Foods"
+        android:background="@drawable/burger"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DrinksBtn" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="96dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:text="Top Up"
+        android:background="@drawable/card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Btn2" />
+
+    <Button
+        android:id="@+id/MyOrderBtn"
+        android:layout_width="131dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="64dp"
+        android:text="My Order"
+        android:background="@drawable/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+
+</android.support.constraint.ConstraintLayout>

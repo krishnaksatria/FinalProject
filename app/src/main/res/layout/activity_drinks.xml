@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asd"
+    tools:context=".Drinks">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="80dp"
+        android:text="Coca Cola"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/MyOrderBtn"
+        app:layout_constraintEnd_toStartOf="@+id/CocaColaBtn"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="96dp"
+        android:text="Sprite"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/SpriteBtn"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="84dp"
+        android:text="Root Beer"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/RootBeerBtn"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="68dp"
+        android:text="Soda Gembira"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/SodaGembiraBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/CocaColaBtn"
+        android:layout_width="57dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:text=""
+        android:background="@drawable/cart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SpriteBtn" />
+
+    <Button
+        android:id="@+id/SpriteBtn"
+        android:layout_width="62dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:text=""
+        android:background="@drawable/cart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RootBeerBtn" />
+
+    <Button
+        android:id="@+id/RootBeerBtn"
+        android:layout_width="71dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:text=""
+        android:background="@drawable/cart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SodaGembiraBtn" />
+
+    <Button
+        android:id="@+id/SodaGembiraBtn"
+        android:layout_width="70dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:text=""
+        android:background="@drawable/cart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Select Your Drinks!"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/MyOrderBtn"
+        android:layout_width="134dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="60dp"
+        android:text="My Order"
+        android:background="@drawable/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CocaColaBtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>
